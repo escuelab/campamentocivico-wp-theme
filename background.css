@@ -23,6 +23,16 @@ body {
   z-index: -10;
 }
 
+#protesta {
+  background: url('/wp-content/themes/campamentocivico/images/protesta.png') no-repeat;
+  width: 580px;
+  height: 455px;
+  position: absolute;
+  z-index: -10;
+  top: 800px;
+}
+
+
 #camper-1 {
    top:20px;
    left:2%; 
@@ -40,7 +50,7 @@ body {
 
 #camp-1 {
    top:100px;
-   left:80%; 
+   left:75%; 
 }
 
 #camp-2 {

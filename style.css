@@ -23,7 +23,7 @@ a {
 	padding: 0;
 	width: 760px;
 	z-index: 10;
-	opacity: 0.98;
+	opacity: 0.92;
 
 	-webkit-border-bottom-right-radius: 15px;
 	-webkit-border-bottom-left-radius: 15px;
@@ -42,6 +42,13 @@ a {
 	-moz-border-radius-topright: 15px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 }
 
 #header {
@@ -67,6 +74,9 @@ a {
 	border: 0px solid ;
 	width: 700px;
 	clear: both;
+	position: relative;
+	bottom: 0px;
+	opacity: 0.85;
 }
 
 #sidebar {

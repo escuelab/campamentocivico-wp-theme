@@ -18,7 +18,15 @@
 <body>
 <div id="icons">
  <div id="camper-1" class="camper"></div>
+ <div id="camper-2" class="camper"></div>
+ <div id="camper-3" class="camper"></div>
+
  <div id="camp-1" class="camp"></div>
+ <div id="camp-2" class="camp"></div>
+ <div id="camp-3" class="camp"></div>
+ <div id="camp-4" class="camp"></div>
+ 
+ <div id="protesta"></div>
 </div>
 
 <div id="page">
