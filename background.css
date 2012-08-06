@@ -1,0 +1,25 @@
+.camper {
+  background: url('/wp-content/themes/campamentocivico/images/camper.png') no-repeat;
+  width: 400px;
+  height: 236px;
+  position: absolute;
+  z-index: -10;
+}
+
+.camp {
+  background: url('/wp-content/themes/campamentocivico/images/camp.png') no-repeat;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  z-index: -10;
+}
+
+#camper-1 {
+   top:2%;
+   right:70%; 
+}
+
+#camp-1 {
+   top:15%;
+   right:2%; 
+}

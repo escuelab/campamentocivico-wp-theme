@@ -11,13 +11,17 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 <link href='http://fonts.googleapis.com/css?family=Quando' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/background.css" type="text/css" media="screen" />
 
 <?php wp_head(); ?>
 </head>
 <body>
+<div id="icons">
+ <div id="camper-1" class="camper"></div>
+ <div id="camp-1" class="camp"></div>
+</div>
+
 <div id="page">
-
-
 <div id="header">
 	<div id="headerimg">
 		<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>

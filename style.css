@@ -22,6 +22,8 @@ a {
 	margin: 0px auto;
 	padding: 0;
 	width: 760px;
+	z-index: 10;
+	opacity: 0.98;
 
 	-webkit-border-bottom-right-radius: 15px;
 	-webkit-border-bottom-left-radius: 15px;
