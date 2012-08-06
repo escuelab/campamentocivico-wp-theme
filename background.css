@@ -1,3 +1,12 @@
+body {
+	min-height: 1500px;
+}
+
+#icons {
+	width: 80%;
+	overflow: hidden;
+}
+
 .camper {
   background: url('/wp-content/themes/campamentocivico/images/camper.png') no-repeat;
   width: 400px;
@@ -15,11 +24,36 @@
 }
 
 #camper-1 {
-   top:2%;
-   right:70%; 
+   top:20px;
+   left:2%; 
+}
+
+#camper-2 {
+   top:600px;
+   left:55%; 
+}
+
+#camper-3 {
+   top:1200px;
+   left:60%; 
 }
 
 #camp-1 {
-   top:15%;
-   right:2%; 
+   top:100px;
+   left:80%; 
+}
+
+#camp-2 {
+   top:400px;
+   left:5%; 
+}
+
+#camp-3 {
+   top:900px;
+   left:60%; 
+}
+
+#camp-4 {
+   top:1300px;
+   left:10%; 
 }
